@@ -6,7 +6,6 @@ Pablo Ruiz 18259 (PingMaster99)
 
 from dataStructures import State
 import networkx as nx
-import numpy as np
 import matplotlib.pyplot as plt
 import pylab
 from dataStructures import DirectConstructionNode, shunting_yard_algorithm

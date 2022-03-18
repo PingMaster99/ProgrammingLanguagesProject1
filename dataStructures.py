@@ -49,7 +49,7 @@ class State(Node):
         self.is_acceptance = False
 
 
-# reference: https://github.com/niemaattarian/Thompsons-Construction-on-NFAs/blob/master/Project.py
+# Based on: https://github.com/niemaattarian/Thompsons-Construction-on-NFAs/blob/master/Project.py
 def shunting_yard_algorithm(infix):
     """
     Generates a postfix expression from an infix one
