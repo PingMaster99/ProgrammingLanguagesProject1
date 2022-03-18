@@ -93,7 +93,7 @@ class FiniteAutomaton(object):
                 current = self.epsilon_closure(self.initial_state)
             # No acceptance strings
             else:
-                tokens.append('INVALID EXPRESSION, Invalid tokens ->')
+                tokens.append('EXPRESIÓN INVÁLIDA, Tokens inválidos ->')
                 tokens.append(string)
                 return False, tokens
 
@@ -104,7 +104,7 @@ class FiniteAutomaton(object):
                 if state in current:
                     return True, tokens
 
-        tokens.append('INVALID EXPRESSION, Invalid tokens ->')
+        tokens.append('EXPRESIÓN INVÁLIDA, Tokens inválidos ->')
         tokens.append(string)
         return False, tokens
 
