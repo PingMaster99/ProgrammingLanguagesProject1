@@ -101,7 +101,7 @@ class InputParser(object):
 
         for character in regex:
             if character not in valid_characters:
-                return False, f'Caracter inválido en la posición {character_index} de la expresión regular'
+                return False, f'Caracter inválido en la posición {character_index} de la expresión regular\nCaracteres válidos: {valid_characters}'
             character_index += 1
 
         if any(invalid_string in regex for invalid_string in invalid_constructions):
